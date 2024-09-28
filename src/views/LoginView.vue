@@ -3,7 +3,7 @@ import { RouterLink } from 'vue-router'
 </script>
 
 <template>
-  <main class="login-page">
+  <main class="login-view">
     <h1 class="title">Witaj trasa!</h1>
     <p class="description">Jedź bezpiecznie rowerem blablabla</p>
     <RouterLink to="/about" class="login-button">Zacznij teraz</RouterLink>
@@ -11,7 +11,7 @@ import { RouterLink } from 'vue-router'
 </template>
 
 <style scoped lang="scss">
-.login-page {
+.login-view {
   display: flex;
   flex-direction: column;
   align-items: center;
