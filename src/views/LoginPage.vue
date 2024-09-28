@@ -31,7 +31,7 @@ import { RouterLink } from 'vue-router'
   .login-button {
     border: 1px solid #dadada;
     background-color: #f6f6f6;
-    font: 400 16px/24px 'Roboto';
+    font: 500 16px/24px 'Roboto';
     border-radius: 40px;
     padding: 8px;
     width: 100%;
