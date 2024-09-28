@@ -11,7 +11,7 @@ const store = useRoutesStore()
 </script>
 
 <template>
-  <main class="route-details-view">
+  <main class="route-details-view" v-if="store.selectedRoute">
     <div class="top-section">
       <ActionButtons />
       <ImageSlider :images="store.selectedRoute.images" />
