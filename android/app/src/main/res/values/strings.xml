@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">BikePath</string>
+    <string name="title_activity_main">BikePath</string>
+    <string name="package_name">com.BikePath.app</string>
+    <string name="custom_url_scheme">com.BikePath.app</string>
+</resources>
