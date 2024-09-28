@@ -3,7 +3,7 @@
       v-for="route in allRoutes"
       :key="route.id"
       :imageUrl="getRouteImageUrl(route.images)"
-      :mapImageUrl="getRouteImageUrl(route.images)"
+      mapImageUrl="https://yeahbike.jurczak.dev/img/55.webp"
       :trailName="route.name"
       :location="route.place"
       :trailDetails="[
@@ -12,6 +12,7 @@
         { label: 'Typ', value: route.routeType },
       ]"
       :stars="route.opinionsAverage"
+      @click="redirect()"
     />
   </template>
   
@@ -23,10 +24,9 @@
   const allRoutes = store.allRoutes;
   console.log(allRoutes);
   
-  function getRouteImageUrl(routeImages: string[]) {
+  function getRouteImageUrl(routeImages: string[]): void {
     return `https://yeahbike.jurczak.dev/img/${routeImages[0]}.jpg`
   }
-
   </script>
   <style scoped>
 
