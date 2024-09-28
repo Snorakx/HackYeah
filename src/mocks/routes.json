@@ -1,0 +1,110 @@
+{
+  "routes": [
+    {
+      "name": "Szlak Orlich Gniazd",
+      "place": "Ojcowski Park Narodowy, małopolskie",
+      "duration": "2h 57min",
+      "distance": "20km",
+      "elevationGain": "1181ft",
+      "routeType": "loop",
+      "opinionsAverage": 5,
+      "warnings": [
+        "Strome podejścia w niektórych miejscach.",
+        "Uważaj na luźne kamienie na szlaku."
+      ]
+    },
+    {
+      "name": "Kozia Góra",
+      "place": "Tatry, małopolskie",
+      "duration": "3h 15min",
+      "distance": "15km",
+      "elevationGain": "1300ft",
+      "routeType": "out-and-back",
+      "opinionsAverage": 4.8,
+      "warnings": ["Czasami bardzo wietrznie.", "Zabrane szlaki w okolicach trudnych warunków."]
+    },
+    {
+      "name": "Babiogórski Park Narodowy",
+      "place": "Babia Góra, małopolskie",
+      "duration": "4h 10min",
+      "distance": "18km",
+      "elevationGain": "2000ft",
+      "routeType": "loop",
+      "opinionsAverage": 4.9,
+      "warnings": ["Niebezpieczne fragmenty przy złej pogodzie.", "Miej ze sobą mapę."]
+    },
+    {
+      "name": "Góry Stołowe",
+      "place": "Góry Stołowe, dolnośląskie",
+      "duration": "2h 40min",
+      "distance": "12km",
+      "elevationGain": "900ft",
+      "routeType": "loop",
+      "opinionsAverage": 4.7,
+      "warnings": ["Fragmenty szlaku mogą być błotniste.", "Uważaj na dziką zwierzynę."]
+    },
+    {
+      "name": "Pieniny – Trzy Korony",
+      "place": "Pieniny, małopolskie",
+      "duration": "3h 5min",
+      "distance": "14km",
+      "elevationGain": "1100ft",
+      "routeType": "out-and-back",
+      "opinionsAverage": 4.6,
+      "warnings": ["W sezonie dużo turystów.", "Trudne zejścia po deszczu."]
+    },
+    {
+      "name": "Skały Pieninskie",
+      "place": "Pieniny, małopolskie",
+      "duration": "1h 50min",
+      "distance": "8km",
+      "elevationGain": "400ft",
+      "routeType": "loop",
+      "opinionsAverage": 4.5,
+      "warnings": ["Niekiedy strome odcinki.", "Uważaj na śliskie kamienie."]
+    },
+    {
+      "name": "Czarny Staw Gąsienicowy",
+      "place": "Tatry, małopolskie",
+      "duration": "3h 30min",
+      "distance": "10km",
+      "elevationGain": "900ft",
+      "routeType": "out-and-back",
+      "opinionsAverage": 5,
+      "warnings": ["Ograniczona widoczność w chmurach.", "Zabierz ze sobą ciepłe ubrania."]
+    },
+    {
+      "name": "Giewont",
+      "place": "Tatry, małopolskie",
+      "duration": "4h 20min",
+      "distance": "13km",
+      "elevationGain": "3000ft",
+      "routeType": "out-and-back",
+      "opinionsAverage": 4.8,
+      "warnings": ["Wspinaczka po łańcuchach.", "Duże natężenie ruchu turystycznego."]
+    },
+    {
+      "name": "Skrzyczne",
+      "place": "Szyndzielnia, śląskie",
+      "duration": "2h 30min",
+      "distance": "11km",
+      "elevationGain": "800ft",
+      "routeType": "loop",
+      "opinionsAverage": 4.4,
+      "warnings": ["Pogoda zmienna, przygotuj się na deszcz.", "Uważaj na korzenie i kamienie."]
+    },
+    {
+      "name": "Zielony Szlak",
+      "place": "Bieszczady, podkarpackie",
+      "duration": "3h 45min",
+      "distance": "22km",
+      "elevationGain": "1500ft",
+      "routeType": "loop",
+      "opinionsAverage": 4.7,
+      "warnings": [
+        "Fragmenty szlaku mało uczęszczane.",
+        "Miej ze sobą odpowiednie jedzenie i wodę."
+      ]
+    }
+  ]
+}
