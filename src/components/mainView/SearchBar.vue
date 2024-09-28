@@ -13,8 +13,12 @@
       <h1>Cześć, Kasia! Powiedz nam gdzie chciałabyś pojechać?</h1>
 
       <div class="search-bar">
-        <svg class="icon search-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 4a7 7 0 100 14 7 7 0 000-14zm10 10l-4.35-4.35" />
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff" height="25px" width="25px" version="1.1" id="Capa_1" viewBox="0 0 488.4 488.4" xml:space="preserve">
+          <g>
+            <g>
+              <path d="M0,203.25c0,112.1,91.2,203.2,203.2,203.2c51.6,0,98.8-19.4,134.7-51.2l129.5,129.5c2.4,2.4,5.5,3.6,8.7,3.6    s6.3-1.2,8.7-3.6c4.8-4.8,4.8-12.5,0-17.3l-129.6-129.5c31.8-35.9,51.2-83,51.2-134.7c0-112.1-91.2-203.2-203.2-203.2    S0,91.15,0,203.25z M381.9,203.25c0,98.5-80.2,178.7-178.7,178.7s-178.7-80.2-178.7-178.7s80.2-178.7,178.7-178.7    S381.9,104.65,381.9,203.25z"/>
+            </g>
+          </g>
         </svg>
         <input type="text" placeholder="Wyszukaj trasę" />
         <svg class="icon filter-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -64,6 +68,7 @@ h1 {
   margin-bottom: 20px;
   color: #FFFFFF;
   margin-left: 15px;
+  text-align: left;
 }
 
 .search-bar {

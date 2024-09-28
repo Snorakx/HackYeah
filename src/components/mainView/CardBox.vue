@@ -27,11 +27,3 @@ function getRouteImageUrl(routeImages: string[]): string {
   return `https://yeahbike.jurczak.dev/img/${routeImages[0]}.jpg`
 }
 </script>
-<style scoped>
-
-function getRouteImageUrl(routeImages: string[]) {
-  return `https://yeahbike.jurczak.dev/img/${routeImages[0]}.jpg`
-}
-</script>
-<style scoped>
-</style>
