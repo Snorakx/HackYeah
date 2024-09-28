@@ -1,6 +1,6 @@
 <template>
   <TrailCard
-    v-for="(route, index) in allRoutes"
+    v-for="route in allRoutes"
     :key="route.id"
     :imageUrl="getRouteImageUrl(route.images)"
     mapImageUrl="https://yeahbike.jurczak.dev/img/55.webp"
@@ -12,7 +12,6 @@
       { label: 'Typ', value: route.routeType }
     ]"
     :stars="route.opinionsAverage"
-    :id="index"
   />
 </template>
 
@@ -27,11 +26,4 @@ function getRouteImageUrl(routeImages: string[]): string {
   return `https://yeahbike.jurczak.dev/img/${routeImages[0]}.jpg`
 }
 </script>
-<style scoped>
-
-function getRouteImageUrl(routeImages: string[]) {
-  return `https://yeahbike.jurczak.dev/img/${routeImages[0]}.jpg`
-}
-</script>
-<style scoped>
-</style>
+<style scoped></style>
