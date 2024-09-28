@@ -20,7 +20,6 @@
 .container-view {
   max-width: 700px;
   width: 100%;
-  background-color: #f0f0f0;
   height: 100vh;
 }
 </style>
