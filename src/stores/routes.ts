@@ -1,4 +1,3 @@
-import { ref, computed } from 'vue'
 import { defineStore } from 'pinia'
 import routesMocks from '../mocks/routes.json'
 
@@ -9,6 +8,7 @@ export const useRoutesStore = defineStore('routes', {
   }),
 
   getters: {
-    selectedRoute: (state) => state.routes[state.selectedRouteId]
+    selectedRoute: (state) => state.routes[state.selectedRouteId],
+    allRoutes: (state) => state.routes
   }
 })

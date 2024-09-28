@@ -3,7 +3,7 @@ import { useRoutesStore } from '../stores/routes'
 import { Carousel, Navigation, Pagination, Slide } from 'vue3-carousel'
 import 'vue3-carousel/dist/carousel.css'
 
-const store = useRoutesStore()
+const store = useRoutesStore();
 </script>
 
 <template>

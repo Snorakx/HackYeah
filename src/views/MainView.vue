@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import searchBar from '../components/mainView/SearchBar.vue';
 import CardBox from '../components/mainView/CardBox.vue';
-
 </script>
 
 <template>
@@ -16,7 +15,6 @@ import CardBox from '../components/mainView/CardBox.vue';
 </template>
 
 <style scoped lang="scss">
-
 .container {
  display: flex;
  align-items: center;
@@ -25,8 +23,8 @@ import CardBox from '../components/mainView/CardBox.vue';
 }
 
 .holder {
-    width:80%;
+    width:100%;
     margin-top: 16px;
+    padding: 0 16px;
 }
-
 </style>

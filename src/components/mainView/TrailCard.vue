@@ -15,23 +15,32 @@
           </div>
         </div>
         <div class="trail-rating">
-          <span v-for="star in 5" :key="star" class="star">X</span>
+            <svg v-for="star in stars" class="star" :key="star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" width="15px" height="15px">
+              <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
+            </svg>
         </div>
       </div>
     </div>
   </template>
   
-  <script>
-  export default {
-    name: 'TrailCard',
-    props: {
-      imageUrl: String,
-      mapImageUrl: String,
-      trailName: String,
-      location: String,
-      trailDetails: Array
-    }
+  <script setup lang="ts">
+  import { defineProps } from 'vue'
+  
+  interface TrailDetail {
+    label: string;
+    value: string;
   }
+  
+  interface Props {
+    imageUrl: string;
+    mapImageUrl: string;
+    trailName: string;
+    location: string;
+    trailDetails: TrailDetail[];
+    stars: number;
+  }
+  
+  const props = defineProps<Props>()
   </script>
   
   <style scoped>
@@ -41,6 +50,7 @@
     overflow: hidden;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     position: relative;
+    margin-top: 16px;
   }
   
   .trail-image {
@@ -91,12 +101,12 @@
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
+    max-width: 70%;
   }
   
   .detail {
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
   
   .detail-label {
@@ -110,6 +120,7 @@
   
   .trail-rating {
     margin-top: 10px;
+    display: flex;
   }
   
   .star {
