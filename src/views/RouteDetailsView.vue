@@ -1,8 +1,11 @@
 <script setup lang="ts">
 import UIButton from '@/components/ui/UIButton.vue'
 import { useRoutesStore } from '../stores/routes'
-import { Carousel, Navigation, Pagination, Slide } from 'vue3-carousel'
+import { Carousel, Pagination, Slide } from 'vue3-carousel'
 import 'vue3-carousel/dist/carousel.css'
+import ChevronLeftSVG from '@/components/svg/ChevronLeftSVG.vue'
+import ShareSVG from '@/components/svg/ShareSVG.vue'
+import FavouriteSVG from '@/components/svg/FavouriteSVG.vue'
 
 const store = useRoutesStore()
 </script>
@@ -11,8 +14,21 @@ const store = useRoutesStore()
   <main class="route-details-view">
     <div class="top-section">
       <div class="actions">
-        <UIButton to="/"> Test </UIButton>
+        <UIButton to="/about">
+          <ChevronLeftSVG />
+        </UIButton>
+
+        <div class="right">
+          <UIButton to="/about">
+            <ShareSVG />
+          </UIButton>
+
+          <UIButton to="/about">
+            <FavouriteSVG />
+          </UIButton>
+        </div>
       </div>
+
       <Carousel>
         <Slide v-for="slide in store.selectedRoute.images" :key="slide">
           <div class="carousel__item">
@@ -31,6 +47,7 @@ const store = useRoutesStore()
 <style scoped lang="scss">
 .route-details-view {
   padding: 0;
+  position: relative;
 }
 
 .carousel__pagination {
@@ -62,5 +79,21 @@ const store = useRoutesStore()
 .slide-image {
   min-height: 430px;
   object-fit: cover;
+}
+
+.actions {
+  position: absolute;
+  top: 32px;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 16px;
+
+  & .right {
+    display: flex;
+    gap: 8px;
+  }
 }
 </style>

@@ -2,7 +2,7 @@
 import { RouterLink } from 'vue-router'
 import { computed } from 'vue'
 
-const props = defineProps(['href', 'to'])
+const props = defineProps(['href', 'to', 'type'])
 
 const component = computed(() => {
   if (props.href) {
@@ -15,10 +15,18 @@ const component = computed(() => {
 
   return 'button'
 })
+
+const type = computed(() => {
+  if (props.type) {
+    return `${props.type}-button`
+  }
+
+  return 'primary-button'
+})
 </script>
 
 <template>
-  <component :is="component">
+  <component :is="component" :class="type">
     <slot></slot>
   </component>
 </template>
@@ -27,5 +35,9 @@ const component = computed(() => {
 .primary-button {
   padding: 8px;
   border-radius: 50%;
+  min-height: 40px;
+  min-width: 40px;
+  background-color: white;
+  display: flex;
 }
 </style>
