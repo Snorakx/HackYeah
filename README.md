@@ -1,11 +1,15 @@
 Project Setup
-npm install
+<br>
+`npm install`
 
 Compile and Hot-Reload for Development
-npm dev
+<br>
+`npm dev`
 
 Type-Check, Compile and Minify for Production
-npm build
+<br>
+`npm build`
 
 Lint with ESLint
-npm lint
+<br>
+`npm lint`
