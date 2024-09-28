@@ -11,7 +11,8 @@
       "warnings": [
         "Strome podejścia w niektórych miejscach.",
         "Uważaj na luźne kamienie na szlaku."
-      ]
+      ],
+      "images": ["1", "2", "3"]
     },
     {
       "name": "Kozia Góra",
@@ -21,7 +22,8 @@
       "elevationGain": "1300ft",
       "routeType": "out-and-back",
       "opinionsAverage": 4.8,
-      "warnings": ["Czasami bardzo wietrznie.", "Zabrane szlaki w okolicach trudnych warunków."]
+      "warnings": ["Czasami bardzo wietrznie.", "Zabrane szlaki w okolicach trudnych warunków."],
+      "images": ["2", "3", "4"]
     },
     {
       "name": "Babiogórski Park Narodowy",
@@ -31,7 +33,8 @@
       "elevationGain": "2000ft",
       "routeType": "loop",
       "opinionsAverage": 4.9,
-      "warnings": ["Niebezpieczne fragmenty przy złej pogodzie.", "Miej ze sobą mapę."]
+      "warnings": ["Niebezpieczne fragmenty przy złej pogodzie.", "Miej ze sobą mapę."],
+      "images": ["3", "4", "5"]
     },
     {
       "name": "Góry Stołowe",
@@ -41,7 +44,8 @@
       "elevationGain": "900ft",
       "routeType": "loop",
       "opinionsAverage": 4.7,
-      "warnings": ["Fragmenty szlaku mogą być błotniste.", "Uważaj na dziką zwierzynę."]
+      "warnings": ["Fragmenty szlaku mogą być błotniste.", "Uważaj na dziką zwierzynę."],
+      "images": ["4", "5", "6"]
     },
     {
       "name": "Pieniny – Trzy Korony",
@@ -51,7 +55,8 @@
       "elevationGain": "1100ft",
       "routeType": "out-and-back",
       "opinionsAverage": 4.6,
-      "warnings": ["W sezonie dużo turystów.", "Trudne zejścia po deszczu."]
+      "warnings": ["W sezonie dużo turystów.", "Trudne zejścia po deszczu."],
+      "images": ["5", "6", "7"]
     },
     {
       "name": "Skały Pieninskie",
@@ -61,7 +66,8 @@
       "elevationGain": "400ft",
       "routeType": "loop",
       "opinionsAverage": 4.5,
-      "warnings": ["Niekiedy strome odcinki.", "Uważaj na śliskie kamienie."]
+      "warnings": ["Niekiedy strome odcinki.", "Uważaj na śliskie kamienie."],
+      "images": ["6", "7", "8"]
     },
     {
       "name": "Czarny Staw Gąsienicowy",
@@ -71,7 +77,8 @@
       "elevationGain": "900ft",
       "routeType": "out-and-back",
       "opinionsAverage": 5,
-      "warnings": ["Ograniczona widoczność w chmurach.", "Zabierz ze sobą ciepłe ubrania."]
+      "warnings": ["Ograniczona widoczność w chmurach.", "Zabierz ze sobą ciepłe ubrania."],
+      "images": ["7", "8", "9"]
     },
     {
       "name": "Giewont",
@@ -81,7 +88,8 @@
       "elevationGain": "3000ft",
       "routeType": "out-and-back",
       "opinionsAverage": 4.8,
-      "warnings": ["Wspinaczka po łańcuchach.", "Duże natężenie ruchu turystycznego."]
+      "warnings": ["Wspinaczka po łańcuchach.", "Duże natężenie ruchu turystycznego."],
+      "images": ["8", "9", "10"]
     },
     {
       "name": "Skrzyczne",
@@ -91,7 +99,8 @@
       "elevationGain": "800ft",
       "routeType": "loop",
       "opinionsAverage": 4.4,
-      "warnings": ["Pogoda zmienna, przygotuj się na deszcz.", "Uważaj na korzenie i kamienie."]
+      "warnings": ["Pogoda zmienna, przygotuj się na deszcz.", "Uważaj na korzenie i kamienie."],
+      "images": ["9", "10", "11"]
     },
     {
       "name": "Zielony Szlak",
@@ -104,7 +113,8 @@
       "warnings": [
         "Fragmenty szlaku mało uczęszczane.",
         "Miej ze sobą odpowiednie jedzenie i wodę."
-      ]
+      ],
+      "images": ["10", "1", "2"]
     }
   ]
 }
