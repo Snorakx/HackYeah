@@ -3,7 +3,7 @@
     v-for="(route, index) in allRoutes"
     :key="route.id"
     :imageUrl="getRouteImageUrl(route.images)"
-    :mapImageUrl="getRouteImageUrl(route.images)"
+    mapImageUrl="https://yeahbike.jurczak.dev/img/55.webp"
     :trailName="route.name"
     :location="route.place"
     :trailDetails="[
@@ -22,10 +22,16 @@ import { useRoutesStore } from '../../stores/routes'
 
 const store = useRoutesStore()
 const allRoutes = store.allRoutes
-console.log(allRoutes)
+
+function getRouteImageUrl(routeImages: string[]): string {
+  return `https://yeahbike.jurczak.dev/img/${routeImages[0]}.jpg`
+}
+</script>
+<style scoped>
 
 function getRouteImageUrl(routeImages: string[]) {
   return `https://yeahbike.jurczak.dev/img/${routeImages[0]}.jpg`
 }
 </script>
-<style scoped></style>
+<style scoped>
+</style>
