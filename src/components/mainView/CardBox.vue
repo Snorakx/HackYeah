@@ -1,6 +1,6 @@
 <template>
   <TrailCard
-    v-for="route in allRoutes"
+    v-for="(route, index) in allRoutes"
     :key="route.id"
     :imageUrl="getRouteImageUrl(route.images)"
     mapImageUrl="https://yeahbike.jurczak.dev/img/55.webp"
@@ -12,6 +12,7 @@
       { label: 'Typ', value: route.routeType }
     ]"
     :stars="route.opinionsAverage"
+    :id="index"
   />
 </template>
 
