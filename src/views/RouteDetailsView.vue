@@ -10,7 +10,9 @@ const store = useRoutesStore()
   <main class="route-details-view">
     <Carousel>
       <Slide v-for="slide in store.selectedRoute.images" :key="slide">
-        <div class="carousel__item"></div>
+        <div class="carousel__item">
+          <img :src="`https://bikeyeah.jurczak.dev/img/${slide}.jpg`" />
+        </div>
       </Slide>
 
       <template #addons>
