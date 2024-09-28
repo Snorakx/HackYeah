@@ -10,5 +10,11 @@ export const useRoutesStore = defineStore('routes', {
   getters: {
     selectedRoute: (state) => state.routes[state.selectedRouteId],
     allRoutes: (state) => state.routes
+  },
+  actions: {
+    // since we rely on `this`, we cannot use an arrow function
+    selectRoute(id: number) {
+      this.selectedRouteId = id
+    }
   }
 })

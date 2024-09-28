@@ -9,16 +9,16 @@ const props = defineProps(['routeId'])
 
 <template>
   <div class="actions">
-    <UIButton to="/about">
+    <UIButton to="/home">
       <ChevronLeftSVG />
     </UIButton>
 
     <div class="right">
-      <UIButton to="/about">
+      <UIButton to="/home">
         <ShareSVG />
       </UIButton>
 
-      <UIButton to="/about">
+      <UIButton to="/home">
         <FavouriteSVG />
       </UIButton>
     </div>
