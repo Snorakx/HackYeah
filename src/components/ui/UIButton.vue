@@ -18,7 +18,14 @@ const component = computed(() => {
 </script>
 
 <template>
-  <component :is="component" />
+  <component :is="component">
+    <slot></slot>
+  </component>
 </template>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+.primary-button {
+  padding: 8px;
+  border-radius: 50%;
+}
+</style>

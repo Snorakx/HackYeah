@@ -9,18 +9,22 @@ const store = useRoutesStore()
 
 <template>
   <main class="route-details-view">
-    <Carousel>
-      <Slide v-for="slide in store.selectedRoute.images" :key="slide">
-        <div class="carousel__item">
-          <img :src="`https://yeahbike.jurczak.dev/img/${slide}.jpg`" class="slide-image" />
-        </div>
-      </Slide>
+    <div class="top-section">
+      <div class="actions">
+        <UIButton to="/"> Test </UIButton>
+      </div>
+      <Carousel>
+        <Slide v-for="slide in store.selectedRoute.images" :key="slide">
+          <div class="carousel__item">
+            <img :src="`https://yeahbike.jurczak.dev/img/${slide}.jpg`" class="slide-image" />
+          </div>
+        </Slide>
 
-      <template #addons>
-        <Pagination />
-      </template>
-    </Carousel>
-    <UIButton />
+        <template #addons>
+          <Pagination />
+        </template>
+      </Carousel>
+    </div>
   </main>
 </template>
 
