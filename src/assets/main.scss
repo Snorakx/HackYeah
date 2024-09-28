@@ -10,22 +10,21 @@
   }
 
   body {
-    @apply min-h-screen  text-gray-800 bg-white transition-colors duration-500 leading-6 font-sans text-base antialiased;
-    @apply xl:flex xl:place-items-center;
-    @apply dark:text-gray-900;
+    min-height: 100vh;
+    font-family: sans-serif;
     text-rendering: optimizeLegibility;
   }
 
   #app {
-    @apply max-w-7xl p-8 mx-auto my-0 font-normal;
-    @apply xl:grid xl:grid-cols-2 xl:gap-x-8 xl:py-0 xl:px-8;
+    min-height: 100vh;
+    width: 100%;
+  }
+
+  main {
+    padding: 24px;
   }
 
   a {
     @apply no-underline text-gray-900 duration-400;
-
-    &:hover {
-      @apply hover-hover:bg-jade-900;
-    }
   }
 }
