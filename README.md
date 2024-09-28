@@ -4,12 +4,12 @@ Project Setup
 
 Compile and Hot-Reload for Development
 <br>
-`npm dev`
+`npm run dev`
 
 Type-Check, Compile and Minify for Production
 <br>
-`npm build`
+`npm run build`
 
 Lint with ESLint
 <br>
-`npm lint`
+`npm run lint`
