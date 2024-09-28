@@ -9,10 +9,6 @@ const component = computed(() => {
     return 'a'
   }
 
-  if (props.to) {
-    return 'RouterLink'
-  }
-
   return 'button'
 })
 
@@ -26,9 +22,14 @@ const type = computed(() => {
 </script>
 
 <template>
-  <component :is="component" :class="type">
-    <slot></slot>
-  </component>
+  <div :class="type">
+    <RouterLink :to="to" v-if="props.to">
+      <slot></slot>
+    </RouterLink>
+    <component :is="component" v-else>
+      <slot></slot>
+    </component>
+  </div>
 </template>
 
 <style scoped lang="scss">
