@@ -2,8 +2,12 @@
 import { useRoutesStore } from '../stores/routes'
 import ImageSlider from '@/components/details/ImageSlider.vue'
 import ActionButtons from '@/components/details/ActionButtons.vue'
+import RouteDetails from '@/components/details/RouteDetails.vue'
+import WarningSection from '@/components/details/WarningSection.vue'
+import DetailsSection from '@/components/details/DetailsSection.vue'
+import MapDetails from '@/components/details/MapDetails.vue'
 
-const store = useRoutesStore();
+const store = useRoutesStore()
 </script>
 
 <template>
@@ -11,6 +15,10 @@ const store = useRoutesStore();
     <div class="top-section">
       <ActionButtons />
       <ImageSlider :images="store.selectedRoute.images" />
+      <RouteDetails :selected-route="store.selectedRoute" />
+      <WarningSection :warnings="store.selectedRoute.warnings" />
+      <DetailsSection :details="store.selectedRoute.description" />
+      <MapDetails />
     </div>
   </main>
 </template>

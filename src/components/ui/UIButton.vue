@@ -41,4 +41,26 @@ const type = computed(() => {
   background-color: white;
   display: flex;
 }
+
+.green-button {
+  padding: 8px;
+  border-radius: 40px;
+  min-height: 52px;
+  background-color: #64f57b;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  font-weight: 600;
+}
+
+.grey-button {
+  padding: 8px;
+  border-radius: 40px;
+  min-height: 52px;
+  background-color: #efefec;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  font-weight: 600;
+}
 </style>
