@@ -12,7 +12,7 @@
   body {
     @apply min-h-screen  text-gray-800 bg-white transition-colors duration-500 leading-6 font-sans text-base antialiased;
     @apply xl:flex xl:place-items-center;
-    @apply dark:text-gray-400 dark:bg-gray-900;
+    @apply dark:text-gray-900;
     text-rendering: optimizeLegibility;
   }
 
@@ -22,7 +22,7 @@
   }
 
   a {
-    @apply no-underline text-jade-500 duration-400;
+    @apply no-underline text-gray-900 duration-400;
 
     &:hover {
       @apply hover-hover:bg-jade-900;
