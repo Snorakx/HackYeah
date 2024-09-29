@@ -17,8 +17,8 @@
 </template>
 
 <script setup lang="ts">
-import TrailCard from './TrailCard.vue'
 import { useRoutesStore } from '../../stores/routes'
+import TrailCard from '@/components/main/TrailCard.vue'
 
 const store = useRoutesStore()
 const allRoutes = store.allRoutes

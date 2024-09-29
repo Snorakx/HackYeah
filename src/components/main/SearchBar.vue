@@ -6,7 +6,7 @@
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
-            viewBox="0 0 24 24"
+            viewBox="0 0 28 28"
             stroke="currentColor"
             class="location-icon"
           >
@@ -24,47 +24,33 @@
       <h1>Cześć, Kasia! Powiedz nam gdzie chciałabyś pojechać?</h1>
 
       <RouterLink class="search-bar" to="/search">
-        <svg
-          class="icon search-icon"
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M11 4a7 7 0 100 14 7 7 0 000-14zm10 10l-4.35-4.35"
-          />
-        </svg>
+        <WhiteSearchSVG />
+        <span class="search-text">Wyszukaj trasę</span>
       </RouterLink>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-import { RouterLink } from 'vue-router'
-
-// Brak logiki, ale możesz dodać propsy lub emitery, jeśli to potrzebne.
+import WhiteSearchSVG from '../svg/WhiteSearchSVG.vue'
 </script>
 
 <style scoped>
 .container {
   background-image: url('https://yeahbike.jurczak.dev/img/7.jpg');
-  border-radius: 0 0 50px 50px;
   max-width: 100%;
   background-size: cover;
   background-position: center;
+  border-radius: 0 0 32px 32px;
 }
 
 .holder {
-  padding: 40px 20px;
+  padding: 24px 20px;
   color: #000;
   text-align: center;
-  border-radius: 0 0 50px 50px;
-  backdrop-filter: brightness(85%) blur(2px);
   width: 100%;
+  backdrop-filter: brightness(0.15);
+  border-radius: 0 0 32px 32px;
 }
 
 .location {
@@ -83,7 +69,6 @@ h1 {
   font-weight: 400;
   margin-bottom: 20px;
   color: #ffffff;
-  margin-left: 15px;
   text-align: left;
 }
 
@@ -124,5 +109,10 @@ input {
 
 input::placeholder {
   color: rgba(255, 255, 255, 0.7); /* Kolor placeholdera */
+}
+
+.search-text {
+  color: white;
+  margin-left: 8px;
 }
 </style>

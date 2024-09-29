@@ -63,4 +63,16 @@ const type = computed(() => {
   justify-content: center;
   font-weight: 600;
 }
+
+.blue-button {
+  padding: 8px;
+  border-radius: 40px;
+  min-height: 52px;
+  background-color: #0054fe;
+  color: white;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  font-weight: 600;
+}
 </style>

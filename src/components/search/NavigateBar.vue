@@ -2,6 +2,18 @@
 import UIButton from '@/components/ui/UIButton.vue'
 import ChevronLeftSVG from '@/components/svg/ChevronLeftSVG.vue'
 import SettingsSVG from '../svg/SettingsSVG.vue'
+import SettingsPanel from './SettingsPanel.vue'
+import { ref } from 'vue'
+
+const isVisible = ref(false)
+
+function openSettings() {
+  isVisible.value = true
+}
+
+function closeSettings() {
+  isVisible.value = false
+}
 </script>
 
 <template>
@@ -12,9 +24,10 @@ import SettingsSVG from '../svg/SettingsSVG.vue'
 
     <span class="search-title">Gdzie jedziesz?</span>
 
-    <UIButton to="/home">
+    <UIButton @click="openSettings">
       <SettingsSVG />
     </UIButton>
+    <SettingsPanel v-show="isVisible" @close="closeSettings" />
   </div>
 </template>
 
