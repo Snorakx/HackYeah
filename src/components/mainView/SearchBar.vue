@@ -38,21 +38,6 @@
             d="M11 4a7 7 0 100 14 7 7 0 000-14zm10 10l-4.35-4.35"
           />
         </svg>
-        <input type="text" placeholder="Wyszukaj trasę" />
-        <svg
-          class="icon filter-icon"
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M3 4h18M3 12h12m-6 8h12"
-          />
-        </svg>
       </RouterLink>
     </div>
   </div>
@@ -99,6 +84,7 @@ h1 {
   margin-bottom: 20px;
   color: #ffffff;
   margin-left: 15px;
+  text-align: left;
 }
 
 .search-bar {
