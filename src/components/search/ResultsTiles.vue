@@ -1,14 +1,17 @@
 <script setup lang="ts">
+import { usePlacesStore } from '@/stores/places'
 import PlaceSVG from '../svg/PlaceSVG.vue'
+
+const store = usePlacesStore()
 </script>
 
 <template>
   <div class="results-tiles">
-    <div class="tile" v-for="i in 20" :key="i">
+    <div class="tile" v-for="place in store.allPlaces" :key="place.city">
       <PlaceSVG />
       <div>
-        <p class="town">Kraków</p>
-        <p class="street">Ulica Porzeczkowa 3, Kraków</p>
+        <p class="town">{{ place.city }}</p>
+        <p class="street">{{ place.street }}</p>
       </div>
     </div>
   </div>

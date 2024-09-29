@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import UIButton from '@/components/ui/UIButton.vue'
 import ChevronLeftSVG from '@/components/svg/ChevronLeftSVG.vue'
-import FavouriteSVG from '@/components/svg/FavouriteSVG.vue'
+import SettingsSVG from '../svg/SettingsSVG.vue'
 </script>
 
 <template>
@@ -13,7 +13,7 @@ import FavouriteSVG from '@/components/svg/FavouriteSVG.vue'
     <span class="search-title">Gdzie jedziesz?</span>
 
     <UIButton to="/home">
-      <FavouriteSVG />
+      <SettingsSVG />
     </UIButton>
   </div>
 </template>

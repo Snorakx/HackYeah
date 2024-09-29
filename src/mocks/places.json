@@ -1,0 +1,24 @@
+{
+  "places": [
+    { "city": "Kraków", "street": "ul. Floriańska" },
+    { "city": "Tarnów", "street": "ul. Mickiewicza" },
+    { "city": "Nowy Sącz", "street": "ul. Piłsudskiego" },
+    { "city": "Oświęcim", "street": "ul. Księdza Władysława Kucy" },
+    { "city": "Chrzanów", "street": "ul. 3 Maja" },
+    { "city": "Wadowice", "street": "ul. Kościelna" },
+    { "city": "Bochnia", "street": "ul. Głowackiego" },
+    { "city": "Zabrze", "street": "ul. Główna" },
+    { "city": "Myślenice", "street": "ul. Długa" },
+    { "city": "Brzesko", "street": "ul. Krakowska" },
+    { "city": "Limanowa", "street": "ul. Piłsudskiego" },
+    { "city": "Sandomierz", "street": "ul. Jana Pawła II" },
+    { "city": "Skawina", "street": "ul. Wiosenna" },
+    { "city": "Proszowice", "street": "ul. Grunwaldzka" },
+    { "city": "Dobczyce", "street": "ul. Rynek" },
+    { "city": "Krynica-Zdrój", "street": "ul. Zdrojowa" },
+    { "city": "Stary Sącz", "street": "ul. Słowackiego" },
+    { "city": "Miechów", "street": "ul. Jagiellońska" },
+    { "city": "Kraków", "street": "ul. Starowiślna" },
+    { "city": "Niepołomice", "street": "ul. 3 Maja" }
+  ]
+}
