@@ -31,9 +31,14 @@ import UIButton from '@/components/ui/UIButton.vue'
 }
 
 .actions {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
   padding: 16px;
   display: flex;
   gap: 24px;
+  background-color: white;
   box-shadow: 0 -4px 4px 0 rgba(black, 0.04);
   & :deep(> div) {
     flex: 1;
