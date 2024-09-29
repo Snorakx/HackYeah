@@ -6,7 +6,7 @@ import { RouterLink } from 'vue-router'
   <main class="login-view">
     <h1 class="title">Witaj trasa!</h1>
     <p class="description">Jedź bezpiecznie rowerem blablabla</p>
-    <RouterLink to="/about" class="login-button">Zacznij teraz</RouterLink>
+    <RouterLink to="/home" class="login-button">Zacznij teraz</RouterLink>
   </main>
 </template>
 
@@ -18,6 +18,7 @@ import { RouterLink } from 'vue-router'
   justify-content: flex-end;
   gap: 12px;
   min-height: 100vh;
+  padding: 24px;
 
   .title {
     font: 500 36px/44px 'Roboto';

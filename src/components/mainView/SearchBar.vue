@@ -3,8 +3,19 @@
     <div class="holder">
       <div class="location">
         <span class="icon">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="location-icon">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 2C8.134 2 5 5.134 5 9c0 4.418 7 13 7 13s7-8.582 7-13c0-3.866-3.134-7-7-7zm0 10a3 3 0 110-6 3 3 0 010 6z"/>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            class="location-icon"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M12 2C8.134 2 5 5.134 5 9c0 4.418 7 13 7 13s7-8.582 7-13c0-3.866-3.134-7-7-7zm0 10a3 3 0 110-6 3 3 0 010 6z"
+            />
           </svg>
         </span>
         <span>Kraków, małopolskie</span>
@@ -12,20 +23,44 @@
 
       <h1>Cześć, Kasia! Powiedz nam gdzie chciałabyś pojechać?</h1>
 
-      <div class="search-bar">
-        <svg class="icon search-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 4a7 7 0 100 14 7 7 0 000-14zm10 10l-4.35-4.35" />
+      <RouterLink class="search-bar" to="/search">
+        <svg
+          class="icon search-icon"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M11 4a7 7 0 100 14 7 7 0 000-14zm10 10l-4.35-4.35"
+          />
         </svg>
         <input type="text" placeholder="Wyszukaj trasę" />
-        <svg class="icon filter-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 4h18M3 12h12m-6 8h12" />
+        <svg
+          class="icon filter-icon"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M3 4h18M3 12h12m-6 8h12"
+          />
         </svg>
-      </div>
+      </RouterLink>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
+import { RouterLink } from 'vue-router'
+
 // Brak logiki, ale możesz dodać propsy lub emitery, jeśli to potrzebne.
 </script>
 
@@ -51,7 +86,7 @@
   display: flex;
   align-items: center;
   margin-bottom: 10px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .location .icon {
@@ -62,7 +97,7 @@ h1 {
   font-size: 1.5rem;
   font-weight: 400;
   margin-bottom: 20px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-left: 15px;
 }
 
@@ -75,7 +110,6 @@ h1 {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10px);
   width: 100%;
-  
 }
 
 input {
@@ -83,7 +117,7 @@ input {
   outline: none;
   flex-grow: 1;
   background-color: transparent;
-  color: #FFFFFF; /* Kolor tekstu */
+  color: #ffffff; /* Kolor tekstu */
   font-size: 16px;
   margin-left: 10px;
 }
@@ -91,7 +125,7 @@ input {
 .icon {
   width: 24px;
   height: 24px;
-  color: #FFFFFF; /* Kolor ikon */
+  color: #ffffff; /* Kolor ikon */
 }
 
 .search-icon {

@@ -6,6 +6,7 @@ import MapButtons from './MapButtons.vue'
 <template>
   <div class="map-details">
     <MapButtons />
+    <img src="https://yeahbike.jurczak.dev/img/55.webp" />
     <UIButton type="grey">Wyświetl podgląd szlaku</UIButton>
     <UIButton type="grey">Wyświetl podgląd szlaku</UIButton>
   </div>
@@ -13,7 +14,7 @@ import MapButtons from './MapButtons.vue'
 
 <style scoped lang="scss">
 .map-details {
-  padding: 0 24px;
+  padding: 0 24px 24px;
   gap: 16px;
   display: flex;
   flex-direction: column;

@@ -6,8 +6,7 @@ import UIButton from '@/components/ui/UIButton.vue'
   <div class="map-buttons">
     <div class="wrapper">
       <UIButton type="green" class="button"> Pobierz </UIButton>
-
-      <UIButton type="green" class="button"> Mapa </UIButton>
+      <UIButton type="grey" class="button"> Mapa </UIButton>
     </div>
   </div>
 </template>

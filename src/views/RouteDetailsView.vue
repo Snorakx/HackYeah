@@ -6,8 +6,13 @@ import RouteDetails from '@/components/details/RouteDetails.vue'
 import WarningSection from '@/components/details/WarningSection.vue'
 import DetailsSection from '@/components/details/DetailsSection.vue'
 import MapDetails from '@/components/details/MapDetails.vue'
+import { onMounted } from 'vue'
 
 const store = useRoutesStore()
+
+onMounted(() => {
+  window.scrollTo(0, 0)
+})
 </script>
 
 <template>
