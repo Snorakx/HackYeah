@@ -23,20 +23,28 @@ import { RouterLink } from 'vue-router'
   background-size: cover;
 
   .title {
-    font: 500 56px/44px 'Roboto', 'sans-serif', 'arial', 'arial';
+    font:
+      500 56px/44px 'Roboto',
+      'sans-serif',
+      'arial';
     color: #fff;
-
   }
 
   .description {
-    font: 400 16px/24px 'Roboto', 'sans-serif', 'arial';
+    font:
+      400 16px/24px 'Roboto',
+      'sans-serif',
+      'arial';
     color: #fff;
   }
 
   .login-button {
     border: 1px solid #dadada;
     background-color: #f6f6f6;
-    font: 500 16px/24px 'Roboto', 'sans-serif', 'arial';
+    font:
+      500 16px/24px 'Roboto',
+      'sans-serif',
+      'arial';
     border-radius: 40px;
     padding: 8px;
     width: 100%;
@@ -54,7 +62,7 @@ import { RouterLink } from 'vue-router'
       background-color: #222222;
       padding: 12px;
       display: flex;
-      left: 8px;
+      right: 8px;
       position: absolute;
       border-radius: 50%;
       width: 48px;
