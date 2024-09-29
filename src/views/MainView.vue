@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import BottomNavigation from '@/components/BottomNavigation.vue'
 import CardBox from '@/components/main/CardBox.vue'
 import SearchBar from '@/components/main/SearchBar.vue'
 </script>
@@ -11,6 +12,7 @@ import SearchBar from '@/components/main/SearchBar.vue'
         <CardBox />
       </div>
     </div>
+    <BottomNavigation />
   </main>
 </template>
 

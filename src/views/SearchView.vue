@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import BottomNavigation from '@/components/BottomNavigation.vue'
 import NavigateBar from '@/components/search/NavigateBar.vue'
 import ResultsTiles from '@/components/search/ResultsTiles.vue'
 import SearchBar from '@/components/search/SearchBar.vue'
@@ -18,6 +19,7 @@ function handleIsEmpty(isEmpty: boolean): void {
       <SearchBar @is-empty="handleIsEmpty" />
       <ResultsTiles v-if="!empty" />
     </div>
+    <BottomNavigation />
   </main>
 </template>
 

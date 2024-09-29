@@ -7,6 +7,7 @@ import WarningSection from '@/components/details/WarningSection.vue'
 import DetailsSection from '@/components/details/DetailsSection.vue'
 import MapDetails from '@/components/details/MapDetails.vue'
 import { onMounted } from 'vue'
+import BottomNavigation from '@/components/BottomNavigation.vue'
 
 const store = useRoutesStore()
 
@@ -25,6 +26,7 @@ onMounted(() => {
       <DetailsSection :details="store.selectedRoute.description" />
       <MapDetails />
     </div>
+    <BottomNavigation />
   </main>
 </template>
 

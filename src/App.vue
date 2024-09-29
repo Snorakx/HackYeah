@@ -1,12 +1,9 @@
-<script setup lang="ts">
-import BottomNavigation from './components/BottomNavigation.vue'
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div class="container-main">
     <div class="container-view">
       <RouterView />
-      <BottomNavigation />
     </div>
   </div>
 </template>
