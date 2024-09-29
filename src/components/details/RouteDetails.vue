@@ -23,7 +23,7 @@ const props = defineProps(['selectedRoute'])
       </div>
 
       <div class="detail">
-        <h2>test</h2>
+        <h2>typ</h2>
         <p>Szlak pętlowy</p>
       </div>
     </div>

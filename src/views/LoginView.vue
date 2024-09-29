@@ -56,9 +56,6 @@ import { RouterLink } from 'vue-router'
       width: 48px;
       height: 48px;
     }
-
-    &:hover {
-    }
   }
 }
 </style>

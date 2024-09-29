@@ -51,6 +51,11 @@ const type = computed(() => {
   gap: 8px;
   justify-content: center;
   font-weight: 600;
+  & a {
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+  }
 }
 
 .grey-button {
@@ -62,6 +67,11 @@ const type = computed(() => {
   gap: 8px;
   justify-content: center;
   font-weight: 600;
+  & a {
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+  }
 }
 
 .blue-button {
@@ -74,5 +84,10 @@ const type = computed(() => {
   gap: 8px;
   justify-content: center;
   font-weight: 600;
+  & a {
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+  }
 }
 </style>

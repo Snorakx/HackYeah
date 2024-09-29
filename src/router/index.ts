@@ -3,6 +3,7 @@ import MainView from '@/views/MainView.vue'
 import RouteDetailsView from '@/views/RouteDetailsView.vue'
 import LoginView from '../views/LoginView.vue'
 import SearchView from '@/views/SearchView.vue'
+import MapView from '@/views/MapView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -26,6 +27,11 @@ const router = createRouter({
       path: '/search',
       name: 'search',
       component: SearchView
+    },
+    {
+      path: '/map',
+      name: 'map',
+      component: MapView
     }
   ]
 })

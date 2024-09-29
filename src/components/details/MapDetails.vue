@@ -7,8 +7,8 @@ import MapButtons from './MapButtons.vue'
   <div class="map-details">
     <MapButtons />
     <img src="https://yeahbike.jurczak.dev/img/55.webp" />
-    <UIButton type="grey">Wyświetl podgląd szlaku</UIButton>
-    <UIButton type="grey">Wyświetl podgląd szlaku</UIButton>
+    <UIButton type="grey" to="/map">Wyświetl podgląd szlaku</UIButton>
+    <UIButton type="grey" to="/map">Wyświetl podgląd szlaku</UIButton>
   </div>
 </template>
 

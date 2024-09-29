@@ -1,19 +1,20 @@
 <script setup lang="ts">
 import { usePlacesStore } from '@/stores/places'
 import PlaceSVG from '../svg/PlaceSVG.vue'
+import { RouterLink } from 'vue-router'
 
 const store = usePlacesStore()
 </script>
 
 <template>
   <div class="results-tiles">
-    <div class="tile" v-for="place in store.allPlaces" :key="place.city">
+    <RouterLink class="tile" v-for="place in store.allPlaces" :key="place.city" to="/map">
       <PlaceSVG />
       <div>
         <p class="town">{{ place.city }}</p>
         <p class="street">{{ place.street }}</p>
       </div>
-    </div>
+    </RouterLink>
   </div>
 </template>
 
