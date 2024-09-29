@@ -17,7 +17,7 @@ import { RouterLink } from 'vue-router'
   align-items: center;
   justify-content: flex-end;
   gap: 12px;
-  min-height: 100vh;
+  min-height: 100svh;
   padding: 24px;
   background-image: url('https://yeahbike.jurczak.dev/img/15.png');
   background-size: cover;
