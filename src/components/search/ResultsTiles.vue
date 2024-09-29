@@ -32,11 +32,11 @@ const store = usePlacesStore()
 }
 
 .town {
-  font: 500 16px/24px 'Roboto';
+  font: 500 16px/24px 'Roboto', 'sans-serif', 'arial';
 }
 
 .street {
-  font: 500 14px/22px 'Roboto';
+  font: 500 14px/22px 'Roboto', 'sans-serif', 'arial';
   color: #5c5c5c;
 }
 </style>

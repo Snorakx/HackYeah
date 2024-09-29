@@ -58,10 +58,10 @@
 }
 
 .title {
-  font: 600 16px/24px 'Roboto';
+  font: 600 16px/24px 'Roboto', 'sans-serif', 'arial';
 }
 
 .description {
-  font: 400 12px/18px 'Roboto';
+  font: 400 12px/18px 'Roboto', 'sans-serif', 'arial';
 }
 </style>

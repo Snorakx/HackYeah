@@ -48,10 +48,10 @@ const props = defineProps(['selectedRoute'])
 }
 
 h2 {
-  font: 500 32px/42px 'Roboto';
+  font: 500 32px/42px 'Roboto', 'sans-serif', 'arial';
 }
 
 p {
-  font: 400 14px/16px 'Roboto';
+  font: 400 14px/16px 'Roboto', 'sans-serif', 'arial';
 }
 </style>

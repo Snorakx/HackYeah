@@ -18,6 +18,6 @@ const props = defineProps(['warnings'])
 ol {
   list-style-type: disc;
   list-style-position: inside;
-  font-family: 'Roboto';
+  font-family: 'Roboto', 'sans-serif', 'arial';
 }
 </style>

@@ -4,9 +4,9 @@ import { RouterLink } from 'vue-router'
 
 <template>
   <main class="login-view">
-    <h1 class="title">Witaj trasa!</h1>
-    <p class="description">Jedź bezpiecznie rowerem blablabla</p>
-    <RouterLink to="/home" class="login-button">Zacznij teraz</RouterLink>
+    <h1 class="title">Yeah Bike App</h1>
+    <p class="description">Odkryj miasto na dwóch kółkach</p>
+    <RouterLink to="/home" class="login-button">Ruszaj w drogę</RouterLink>
   </main>
 </template>
 
@@ -19,20 +19,24 @@ import { RouterLink } from 'vue-router'
   gap: 12px;
   min-height: 100vh;
   padding: 24px;
+  background-image: url('https://yeahbike.jurczak.dev/img/15.png');
+  background-size: cover;
 
   .title {
-    font: 500 36px/44px 'Roboto';
+    font: 500 56px/44px 'Roboto', 'sans-serif', 'arial', 'arial';
+    color: #fff;
+
   }
 
   .description {
-    font: 400 16px/24px 'Roboto';
-    color: gray;
+    font: 400 16px/24px 'Roboto', 'sans-serif', 'arial';
+    color: #fff;
   }
 
   .login-button {
     border: 1px solid #dadada;
     background-color: #f6f6f6;
-    font: 500 16px/24px 'Roboto';
+    font: 500 16px/24px 'Roboto', 'sans-serif', 'arial';
     border-radius: 40px;
     padding: 8px;
     width: 100%;
